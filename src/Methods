@@ -1,0 +1,586 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:VuejsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd ">
+  <key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder" />
+  <key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+    <default>true</default>
+  </key>
+  <key id="d2" for="node" attr.type="string" attr.name="url" />
+  <key id="d3" for="node" attr.type="string" attr.name="description" />
+  <key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels" />
+  <key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry" />
+  <key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags" />
+  <key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle" />
+  <key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState" />
+  <key id="d9" for="edge" attr.type="string" attr.name="url" />
+  <key id="d10" for="edge" attr.type="string" attr.name="description" />
+  <key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels" />
+  <key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry" />
+  <key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle" />
+  <key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState" />
+  <key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels" />
+  <key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+    <default>
+      <x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored" />
+    </default>
+  </key>
+  <key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+    <default>
+      <x:Static Member="y:VoidPortStyle.Instance" />
+    </default>
+  </key>
+  <key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState" />
+  <key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData" />
+  <data key="d19">
+    <y:SharedData>
+      <y:InteriorLabelModel x:Key="1" />
+      <y:CompositeLabelModelParameter x:Key="2">
+        <y:CompositeLabelModelParameter.Parameter>
+          <y:InteriorLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}" />
+        </y:CompositeLabelModelParameter.Parameter>
+        <y:CompositeLabelModelParameter.Model>
+          <y:CompositeLabelModel>
+            <y:CompositeLabelModel.LabelModels>
+              <y:ExteriorLabelModel Insets="5" />
+              <y:GraphMLReference ResourceKey="1" />
+              <y:FreeNodeLabelModel />
+            </y:CompositeLabelModel.LabelModels>
+          </y:CompositeLabelModel>
+        </y:CompositeLabelModelParameter.Model>
+      </y:CompositeLabelModelParameter>
+      <y:SmartEdgeLabelModel x:Key="3" />
+    </y:SharedData>
+  </data>
+  <graph id="G" edgedefault="directed">
+    <data key="d6">
+      <y:Json>{&quot;version&quot;:&quot;2.0.0&quot;,&quot;theme&quot;:{&quot;name&quot;:&quot;light&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;bridge-style&quot;:&quot;ARC_SCALED&quot;}</y:Json>
+    </data>
+    <node id="node9">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="-248" Y="1204" Width="336" Height="207" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Action" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ imageStore: ImageStore</sys:String>
+                  <sys:String>+ world: WorldModel</sys:String>
+                  <sys:String>+ repeatCount: int</sys:String>
+                  <sys:String>+ kind: ActionKind</sys:String>
+                  <sys:String>+ entity: Entity</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ executeActivityAction(EventScheduler): void</sys:String>
+                  <sys:String>+ executeAction(EventScheduler): void</sys:String>
+                  <sys:String>+ executeAnimationAction(EventScheduler): void</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node6">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1007" Y="1204" Width="217" Height="122" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="ActionKind" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ ACTIVITY:</sys:String>
+                  <sys:String>+ ANIMATION:</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ values(): ActionKind[]</sys:String>
+                  <sys:String>+ valueOf(String): ActionKind</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node11">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1269" Y="1204" Width="177" Height="117" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Background" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ id: String</sys:String>
+                  <sys:String>+ images: List&lt;PImage&gt;</sys:String>
+                  <sys:String>+ imageIndex: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object" />
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node7">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="-248" Y="-1159" Width="495" Height="1739" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Entity" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ resourceCount: int</sys:String>
+                  <sys:String>+ MINER_ID: int</sys:String>
+                  <sys:String>+ VEIN_ROW: int</sys:String>
+                  <sys:String>+ ORE_REACH: int</sys:String>
+                  <sys:String>+ ORE_KEY: String</sys:String>
+                  <sys:String>+ BLOB_ANIMATION_MAX: int</sys:String>
+                  <sys:String>+ MINER_ROW: int</sys:String>
+                  <sys:String>+ SMITH_ID: int</sys:String>
+                  <sys:String>+ ORE_CORRUPT_MIN: int</sys:String>
+                  <sys:String>+ ORE_ID: int</sys:String>
+                  <sys:String>+ BGND_NUM_PROPERTIES: int</sys:String>
+                  <sys:String>+ MINER_ACTION_PERIOD: int</sys:String>
+                  <sys:String>+ BGND_ID: int</sys:String>
+                  <sys:String>+ ORE_ACTION_PERIOD: int</sys:String>
+                  <sys:String>+ MINER_LIMIT: int</sys:String>
+                  <sys:String>+ OBSTACLE_COL: int</sys:String>
+                  <sys:String>+ MINER_KEY: String</sys:String>
+                  <sys:String>+ id: String</sys:String>
+                  <sys:String>+ OBSTACLE_ID: int</sys:String>
+                  <sys:String>+ SMITH_COL: int</sys:String>
+                  <sys:String>+ BLOB_ANIMATION_MIN: int</sys:String>
+                  <sys:String>+ SMITH_ROW: int</sys:String>
+                  <sys:String>+ BLOB_KEY: String</sys:String>
+                  <sys:String>+ OBSTACLE_NUM_PROPERTIES: int</sys:String>
+                  <sys:String>+ BLOB_ID_SUFFIX: String</sys:String>
+                  <sys:String>+ rand: Random</sys:String>
+                  <sys:String>+ ORE_ID_PREFIX: String</sys:String>
+                  <sys:String>+ QUAKE_ANIMATION_REPEAT_COUNT: int</sys:String>
+                  <sys:String>+ imageIndex: int</sys:String>
+                  <sys:String>+ MINER_NUM_PROPERTIES: int</sys:String>
+                  <sys:String>+ VEIN_COL: int</sys:String>
+                  <sys:String>+ images: List&lt;PImage&gt;</sys:String>
+                  <sys:String>+ ORE_ROW: int</sys:String>
+                  <sys:String>+ BGND_KEY: String</sys:String>
+                  <sys:String>+ QUAKE_ACTION_PERIOD: int</sys:String>
+                  <sys:String>+ animationPeriod: int</sys:String>
+                  <sys:String>+ MINER_COL: int</sys:String>
+                  <sys:String>+ VEIN_KEY: String</sys:String>
+                  <sys:String>+ VEIN_ACTION_PERIOD: int</sys:String>
+                  <sys:String>+ ORE_CORRUPT_MAX: int</sys:String>
+                  <sys:String>+ QUAKE_ID: String</sys:String>
+                  <sys:String>+ BGND_COL: int</sys:String>
+                  <sys:String>+ BLOB_PERIOD_SCALE: int</sys:String>
+                  <sys:String>+ MINER_ANIMATION_PERIOD: int</sys:String>
+                  <sys:String>+ OBSTACLE_KEY: String</sys:String>
+                  <sys:String>+ position: Point</sys:String>
+                  <sys:String>+ kind: EntityKind</sys:String>
+                  <sys:String>+ resourceLimit: int</sys:String>
+                  <sys:String>+ actionPeriod: int</sys:String>
+                  <sys:String>+ SMITH_NUM_PROPERTIES: int</sys:String>
+                  <sys:String>+ QUAKE_ANIMATION_PERIOD: int</sys:String>
+                  <sys:String>+ ORE_COL: int</sys:String>
+                  <sys:String>+ QUAKE_KEY: String</sys:String>
+                  <sys:String>+ BGND_ROW: int</sys:String>
+                  <sys:String>+ ORE_NUM_PROPERTIES: int</sys:String>
+                  <sys:String>+ VEIN_ID: int</sys:String>
+                  <sys:String>+ OBSTACLE_ROW: int</sys:String>
+                  <sys:String>+ SMITH_KEY: String</sys:String>
+                  <sys:String>+ VEIN_NUM_PROPERTIES: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ executeMinerFullActivity(WorldModel, ImageStore,  ...): void</sys:String>
+                  <sys:String>+ executeQuakeActivity(WorldModel, ImageStore, EventScheduler ...): void</sys:String>
+                  <sys:String>+ createOreBlob(String, Point, int, int, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ nextPositionOreBlob(WorldModel, Point): Point</sys:String>
+                  <sys:String>+ moveToFull(Entity, WorldModel, Entity, EventScheduler): boolean</sys:String>
+                  <sys:String>+ parseVein(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ executeMinerNotFullActivity(WorldModel, ImageStore,  ...): void</sys:String>
+                  <sys:String>+ parseMiner(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ nextPositionMiner(WorldModel, Point): Point</sys:String>
+                  <sys:String>+ createOre(String, Point, int, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ transformFull(WorldModel, EventScheduler, ImageStore): void</sys:String>
+                  <sys:String>+ transformNotFull(WorldModel, EventScheduler, ImageStore): boolean</sys:String>
+                  <sys:String>+ parseOre(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ scheduleActions(EventScheduler, WorldModel, ImageStore): void</sys:String>
+                  <sys:String>+ executeVeinActivity(WorldModel, ImageStore, EventScheduler): void</sys:String>
+                  <sys:String>+ createVein(String, Point, int, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ executeOreBlobActivity(WorldModel, ImageStore,  ...): void</sys:String>
+                  <sys:String>+ createActivityAction(WorldModel, ImageStore): Action</sys:String>
+                  <sys:String>+ createQuake(Point, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ parseBackground(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ createBlacksmith(String, Point, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ moveToOreBlob(WorldModel, Entity, EventScheduler): boolean</sys:String>
+                  <sys:String>+ createMinerNotFull(String, int, Point, int, int, List&lt; ...): Entity</sys:String>
+                  <sys:String>+ createMinerFull(String, int, Point, int, int, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ parseSmith(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ moveToNotFull(WorldModel, Entity, EventScheduler): boolean</sys:String>
+                  <sys:String>+ parseObstacle(String[], WorldModel, ImageStore): boolean</sys:String>
+                  <sys:String>+ executeOreActivity(WorldModel, ImageStore, EventScheduler): void</sys:String>
+                  <sys:String>+ getAnimationPeriod(): int</sys:String>
+                  <sys:String>+ createObstacle(String, Point, List&lt;PImage&gt;): Entity</sys:String>
+                  <sys:String>+ createAnimationAction(int): Action</sys:String>
+                  <sys:String>+ nextImage(): void</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node0">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1740" Y="-1159" Width="214" Height="220" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="EntityKind" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ VEIN:</sys:String>
+                  <sys:String>+ QUAKE:</sys:String>
+                  <sys:String>+ OBSTACLE:</sys:String>
+                  <sys:String>+ ORE:</sys:String>
+                  <sys:String>+ MINER_FULL:</sys:String>
+                  <sys:String>+ ORE_BLOB:</sys:String>
+                  <sys:String>+ BLACKSMITH:</sys:String>
+                  <sys:String>+ MINER_NOT_FULL:</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ values(): EntityKind[]</sys:String>
+                  <sys:String>+ valueOf(String): EntityKind</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node8">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1491" Y="1204" Width="131" Height="117" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Event" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ entity: Entity</sys:String>
+                  <sys:String>+ time: long</sys:String>
+                  <sys:String>+ action: Action</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object" />
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node1">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1667" Y="1204" Width="210" Height="67" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="EventComparator" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object" />
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ compare(Event, Event): int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node4">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="424" Y="1204" Width="303" Height="185" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="EventScheduler" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ pendingEvents: Map&lt;Entity, List&lt;Event&gt;&gt;</sys:String>
+                  <sys:String>+ timeScale: double</sys:String>
+                  <sys:String>+ eventQueue: PriorityQueue&lt;Event&gt;</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ removePendingEvent(Event): void</sys:String>
+                  <sys:String>+ scheduleEvent(Entity, Action, long): void</sys:String>
+                  <sys:String>+ updateOnTime(long): void</sys:String>
+                  <sys:String>+ unscheduleAllEvents(Entity): void</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node5">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1212" Y="-1159" Width="483" Height="257" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="ImageStore" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ defaultImages: List&lt;PImage&gt;</sys:String>
+                  <sys:String>+ KEYED_IMAGE_MIN: int</sys:String>
+                  <sys:String>+ COLOR_MASK: int</sys:String>
+                  <sys:String>- KEYED_GREEN_IDX: int</sys:String>
+                  <sys:String>- KEYED_BLUE_IDX: int</sys:String>
+                  <sys:String>+ images: Map&lt;String, List&lt;PImage&gt;&gt;</sys:String>
+                  <sys:String>- KEYED_RED_IDX: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ setAlpha(PImage, int, int): void</sys:String>
+                  <sys:String>+ loadImages(Scanner, PApplet): void</sys:String>
+                  <sys:String>+ getImages(Map&lt;String, List&lt;PImage&gt;&gt;, String): List&lt;PImage&gt;</sys:String>
+                  <sys:String>+ processImageLine(Map&lt;String, List&lt;PImage&gt;&gt;, String, PApplet ...): void</sys:String>
+                  <sys:String>+ getImageList(String): List&lt;PImage&gt;</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node13">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="772" Y="1204" Width="190" Height="143" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Point" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ x: int</sys:String>
+                  <sys:String>+ y: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ toString(): String</sys:String>
+                  <sys:String>+ hashCode(): int</sys:String>
+                  <sys:String>+ equals(Object): boolean</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node10">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="133" Y="1204" Width="246" Height="207" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="Viewport" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ row: int</sys:String>
+                  <sys:String>+ numCols: int</sys:String>
+                  <sys:String>+ numRows: int</sys:String>
+                  <sys:String>+ col: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ shift(int, int): void</sys:String>
+                  <sys:String>+ worldToViewport(int, int): Point</sys:String>
+                  <sys:String>+ contains(Point): boolean</sys:String>
+                  <sys:String>+ viewportToWorld(int, int): Point</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node3">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="292" Y="-1159" Width="458" Height="745" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="VirtualWorld" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ view: WorldView</sys:String>
+                  <sys:String>+ world: WorldModel</sys:String>
+                  <sys:String>+ imageStore: ImageStore</sys:String>
+                  <sys:String>+ WORLD_ROWS: int</sys:String>
+                  <sys:String>+ FASTEST_SCALE: double</sys:String>
+                  <sys:String>+ FAST_SCALE: double</sys:String>
+                  <sys:String>+ LOAD_FILE_NAME: String</sys:String>
+                  <sys:String>+ WORLD_WIDTH_SCALE: int</sys:String>
+                  <sys:String>+ timeScale: double</sys:String>
+                  <sys:String>+ VIEW_HEIGHT: int</sys:String>
+                  <sys:String>+ DEFAULT_IMAGE_COLOR: int</sys:String>
+                  <sys:String>+ FAST_FLAG: String</sys:String>
+                  <sys:String>+ VIEW_ROWS: int</sys:String>
+                  <sys:String>+ next_time: long</sys:String>
+                  <sys:String>+ FASTER_FLAG: String</sys:String>
+                  <sys:String>+ IMAGE_LIST_FILE_NAME: String</sys:String>
+                  <sys:String>+ VIEW_WIDTH: int</sys:String>
+                  <sys:String>+ TILE_WIDTH: int</sys:String>
+                  <sys:String>+ DEFAULT_IMAGE_NAME: String</sys:String>
+                  <sys:String>+ FASTER_SCALE: double</sys:String>
+                  <sys:String>+ WORLD_HEIGHT_SCALE: int</sys:String>
+                  <sys:String>+ FASTEST_FLAG: String</sys:String>
+                  <sys:String>+ TIMER_ACTION_PERIOD: int</sys:String>
+                  <sys:String>+ VIEW_COLS: int</sys:String>
+                  <sys:String>+ TILE_HEIGHT: int</sys:String>
+                  <sys:String>+ WORLD_COLS: int</sys:String>
+                  <sys:String>+ scheduler: EventScheduler</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ createDefaultBackground(ImageStore): Background</sys:String>
+                  <sys:String>+ parseCommandLine(String[]): void</sys:String>
+                  <sys:String>+ settings(): void</sys:String>
+                  <sys:String>+ loadWorld(WorldModel, String, ImageStore): void</sys:String>
+                  <sys:String>+ main(String[]): void</sys:String>
+                  <sys:String>+ createImageColored(int, int, int): PImage</sys:String>
+                  <sys:String>- loadImages(String, ImageStore, PApplet): void</sys:String>
+                  <sys:String>+ scheduleActions(WorldModel, EventScheduler, ImageStore): void</sys:String>
+                  <sys:String>+ setup(): void</sys:String>
+                  <sys:String>+ keyPressed(): void</sys:String>
+                  <sys:String>+ draw(): void</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node12">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="795" Y="-1159" Width="372" Height="482" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="WorldModel" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ ORE_REACH: int</sys:String>
+                  <sys:String>+ numRows: int</sys:String>
+                  <sys:String>+ background: Background[][]</sys:String>
+                  <sys:String>+ entities: Set&lt;Entity&gt;</sys:String>
+                  <sys:String>+ occupancy: Entity[][]</sys:String>
+                  <sys:String>+ numCols: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ findNearest(Point, EntityKind): Optional&lt;Entity&gt;</sys:String>
+                  <sys:String>+ setBackground(Point, Background): void</sys:String>
+                  <sys:String>+ getBackgroundImage(Point): Optional&lt;PImage&gt;</sys:String>
+                  <sys:String>+ getOccupant(Point): Optional&lt;Entity&gt;</sys:String>
+                  <sys:String>+ moveEntity(Entity, Point): void</sys:String>
+                  <sys:String>+ tryAddEntity(Entity): void</sys:String>
+                  <sys:String>+ findOpenAround(Point): Optional&lt;Point&gt;</sys:String>
+                  <sys:String>+ getBackgroundCell(Point): Background</sys:String>
+                  <sys:String>+ setBackgroundCell(Point, Background): void</sys:String>
+                  <sys:String>+ isOccupied(Point): boolean</sys:String>
+                  <sys:String>+ distanceSquared(Point, Point): int</sys:String>
+                  <sys:String>+ setOccupancyCell(Point, Entity): void</sys:String>
+                  <sys:String>+ getOccupancyCell(Point): Entity</sys:String>
+                  <sys:String>+ removeEntityAt(Point): void</sys:String>
+                  <sys:String>+ removeEntity(Entity): void</sys:String>
+                  <sys:String>+ addEntity(Entity): void</sys:String>
+                  <sys:String>+ withinBounds(Point): boolean</sys:String>
+                  <sys:String>+ nearestEntity(List&lt;Entity&gt;, Point): Optional&lt;Entity&gt;</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+    <node id="node2">
+      <data key="d0">0</data>
+      <data key="d5">
+        <y:RectD X="1999" Y="-1159" Width="192" Height="220" />
+      </data>
+      <data key="d7">
+        <uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+          <uml:UMLNodeStyle.model>
+            <uml:UMLClassModel stereotype="" constraint="" className="WorldView" attributesOpen="true" operationsOpen="true">
+              <uml:UMLClassModel.attributes>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ viewport: Viewport</sys:String>
+                  <sys:String>+ tileHeight: int</sys:String>
+                  <sys:String>+ screen: PApplet</sys:String>
+                  <sys:String>+ world: WorldModel</sys:String>
+                  <sys:String>+ tileWidth: int</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.attributes>
+              <uml:UMLClassModel.operations>
+                <x:Array Type="sys:Object">
+                  <sys:String>+ drawEntities(): void</sys:String>
+                  <sys:String>+ clamp(int, int, int): int</sys:String>
+                  <sys:String>+ drawBackground(): void</sys:String>
+                  <sys:String>+ drawViewport(): void</sys:String>
+                  <sys:String>+ shiftView(int, int): void</sys:String>
+                </x:Array>
+              </uml:UMLClassModel.operations>
+            </uml:UMLClassModel>
+          </uml:UMLNodeStyle.model>
+        </uml:UMLNodeStyle>
+      </data>
+    </node>
+  </graph>
+</graphml>
